@@ -1,0 +1,9 @@
+{
+  "name": "locate1",
+  "version": "1.0.0",
+  "description": "LOCATE1 — Peer Observation Protocol for BSV",
+  "scripts": {},
+  "dependencies": {
+    "bsv": "^1"
+  }
+}
