@@ -1,6 +1,6 @@
 # LOCATE1 v1 — Peer Observation Protocol
 
-A minimal protocol for recording physical distance measurements between machines on BSV. 143 bytes per attestation.
+A minimal protocol for recording machine-to-machine physical distance measurements on BSV. 143 bytes per attestation.
 
 Devices observe peers. They sign what they saw. They write it to the chain. That's it.
 
