@@ -1,6 +1,6 @@
 # LOCATE1 v1 — Peer Observation Protocol
 
-A minimal protocol for recording peer-to-peer distance measurements on BSV. 143 bytes per attestation.
+A minimal protocol for recording peer-to-peer physical distance measurements on BSV. 143 bytes per attestation.
 
 Devices observe peers. They sign what they saw. They write it to the chain. That's it.
 
@@ -63,7 +63,7 @@ node scanner.cjs <your_address>
 
 ## Mainnet Demo
 
-13 attestations on BSV mainnet from two ESP32 microcontrollers observing each other over radio.
+13 physical distance attestations on BSV mainnet from two ESP32 microcontrollers observing each other over radio.
 
 Two ESP32 devices running LOCATE1. Each one broadcasts its public key over radio. When it hears a peer, it measures the signal strength, signs a LOCATE1 attestation, and a gateway broadcasts it to BSV mainnet.
 
