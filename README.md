@@ -88,3 +88,7 @@ tx: 65af11b31f90db08fdaad6ba8ebc987169cd52c37771ceae0e1329bf74a171ef
 ```
 
 Neither device reported a distance or movement. Both are derived by any observer reading the chain — distance from the RSSI values, movement from the change between blocks. Facts on-chain, interpretation above.
+
+## License
+
+MIT
